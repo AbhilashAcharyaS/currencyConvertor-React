@@ -29,10 +29,11 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+            backgroundImage: `url('https://images.pexels.com/photos/6288608/pexels-photo-6288608.jpeg?auto=compress&cs=tinysrgb&w=600')`,
         }}
     >
         <div className="w-full">
+        <h1 className='text-white text-4xl text-center py-4 font-extrabold'>Currency Convertor</h1>
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
